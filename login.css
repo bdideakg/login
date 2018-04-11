@@ -9,6 +9,55 @@
 	padding: 0;
 }
 body{
-
+	width: 100%;
+	height: auto;
+	background: #101010;
+}
+.border_down{
+	border-bottom: 1px solid #333;
 }
 
+/* Main Css*/
+#loginTab{
+	width: 100%;
+	height: auto;
+}
+.wrapper{
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #f7f4f4;
+    padding: 20px 30px;
+}
+
+/* Content - 1 */
+.content-1{
+
+}
+.content-1 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.content-1 .googleAutoLogin {
+    text-align: center;
+    border: 1px solid #444;
+    padding: 10px 0px;
+    margin: 10px auto;
+    width: 50%;
+}
+.content-1 .googleAutoLogin .ic{
+	width: 20%;
+    text-align: center;
+    float: left;
+}
+.content-1 .googleAutoLogin .bt{
+
+}
+/* Content - 2 */
+.content-2 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.content-2 input{
+	display: block;
+}
