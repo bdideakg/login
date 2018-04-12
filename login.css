@@ -62,8 +62,12 @@ button:hover{
 	width: 20%;
     text-align: center;
     float: left;
+<<<<<<< HEAD
     position: relative;
     padding-top: 10px;
+=======
+    color: green;
+>>>>>>> fc8d5d5a0a03d57a74207d97cfc1ea49e0f4949d
 }
 .content-1 .googleAutoLogin .ic2{
     float: left;
@@ -100,6 +104,7 @@ button:hover{
     text-align: center;
     font-size: 30px;
 }
+<<<<<<< HEAD
 .content-2 input[type=text],.content-2 input[type=password]{
 	width: 80%;
 	height: 30px;
@@ -124,10 +129,22 @@ button:hover{
     background-color: #1B8EB7;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+=======
+.content-2 input{
+    width: 70%;
+    height: 25px;
+    background: transparent;
+    padding: 6px 0px 6px 6px;
+    border-right: 1px solid #444;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    border-radius: 5px;
+>>>>>>> fc8d5d5a0a03d57a74207d97cfc1ea49e0f4949d
 }
 
 /* form code */
 .f-wrap{
+<<<<<<< HEAD
 	margin: 25px 0px 8px 0px;
 }
 .f-wrap div{
@@ -180,4 +197,22 @@ button:hover{
 }
 .wr a{
 	float: right;
+=======
+	margin: 10px 0px;
+}
+.f-wrap div{
+    float: left;
+    width: 10%;
+    text-align: center;
+    height: 25px;
+    background: transparent;
+    border: 1px solid #333;
+    position: relative;
+    padding: 6px 0px 6px 6px;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+.f-wrap .f-wrap-in{
+
+>>>>>>> fc8d5d5a0a03d57a74207d97cfc1ea49e0f4949d
 }
