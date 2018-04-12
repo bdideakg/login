@@ -19,7 +19,10 @@ a:hover{
 body{
     width: 100%;
     height: auto;
-    background: #101010;
+    background: url("bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
 }
 .border_down{
     border-bottom: 1px solid #333;
