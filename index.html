@@ -8,7 +8,11 @@
 		<title>Here Is Your Title</title>
 
 		<!-- CSS -->
+		<!-- bootstrap -->
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+		<!-- Template Css -->
 		<link rel="stylesheet" type="text/css" href="login.css">
+		
 
 
 	</head>
@@ -23,11 +27,19 @@
 				<div class="content-1">
 					<h1>Sign in with a social network</h1>
 					<div class="googleAutoLogin">
-						<div class="ic">
-							G
-						</div>
-						<div class="bt">
-							Sign in with Google
+						<!-- <div class="googleAutoLogin_sub"> -->
+							<div class="ic">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 48 48" class="abcRioButtonSvg"><g><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path><path fill="none" d="M0 0h48v48H0z"></path></g></svg>
+							</div>
+							<div class="bt">
+								<a href="" style="color: #fff;">Sign in with Google</a>
+							</div>
+						<!-- </div> -->
+					</div>
+					<div class="fb-set">
+						<div class="w100">
+							<div class="wl20"><span><i class="fab fa-facebook"></i></span></div>
+							<div class="wr80"><span><a href="" style="color: #fff;">Log In With Facebook</a></span></div>
 						</div>
 					</div>
 				</div>
@@ -40,17 +52,78 @@
 					<br>
 					<h1>Sign in with your username</h1>
 					<!-- Login Form Start From Here -->
+
+					<!-- from bootstrap -->
+					<!-- <form>
+					  <div class="form-row align-items-center">
+					    <div class="col-auto">
+					      <label class="sr-only" for="inlineFormInput">Name</label>
+					      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+					    </div>
+					    <div class="col-auto">
+					      <label class="sr-only" for="inlineFormInputGroup">Username</label>
+					      <div class="input-group mb-2">
+					        <div class="input-group-prepend">
+					          <div class="input-group-text"><i class="fas fa-user"></i></div>
+					        </div>
+					        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+					      </div>
+					    </div>
+					    <div class="col-auto">
+					      <div class="form-check mb-2">
+					        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+					        <label class="form-check-label" for="autoSizingCheck">
+					          Remember me
+					        </label>
+					      </div>
+					    </div>
+					    <div class="col-auto">
+					      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+					    </div>
+					  </div>
+					</form> -->
+
+ 					<!-- own form -->
 					<form action="#" method="post">
-						<input type="text" name="username" placeholder="Username">
-						<input type="password" name="username" placeholder="Password">
-						<input type="text" name="2fa" placeholder="Two Factor (If Enable)">
+						
+						<div class="f-wrap">
+							<div>
+								<span><i class="fas fa-user"></i></span>
+							</div>
+							<input class="f-wrap-in" type="text" name="username" placeholder="Username">
+						</div>					
+						<div class="f-wrap">
+							<div>
+								<span><i class="fas fa-lock"></i></span>
+							</div>
+							<input type="password" name="username" placeholder="Password">
+						</div>				
+						<div class="f-wrap">
+							<div>
+								<span><i class="fas fa-key"></i></span>
+							</div>
+							<input type="text" name="2fa" placeholder="Two Factor (If Enable)">
+						</div>
+						<a href="#">Reset Two Factor »</a>
+						<!-- captha start -->
 
-
-
-
+						<!-- end captha -->
+						<!-- submit -->
+						<br><br>
+						<center><input type="submit" name="submit" value="Login »"></center>
 					</form>
+					<!-- end own form -->
 
-
+					<!-- foot -->
+					<br><br>
+					<div class="w100">
+						<div class="wl">
+							<a href="#">Register Here »</a>
+						</div>
+						<div class="wr">
+						<a href="#">Reset Password »</a>
+						</div>
+					</div>
 
 
 
@@ -66,6 +139,13 @@
 			<!-- End Of this Wrapper -->
 		</section>
 
+		<!-- js -->
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> -->
+		<!-- font awesome -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	</body>
 </html>
